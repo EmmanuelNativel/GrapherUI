@@ -1,0 +1,21 @@
+Nom : Nativel 
+Prénom : Emmanuel
+
+
+J'ai décidé de convertir mon expression en notation postfixée car il est plus facile de gérer les parenthèses comme cela.
+L'équation postfixée est ensuite exprimée sous forme d'un arbre arithmétique.
+Enfin, l'évaluation de l'équation se fait grâce au polymorphisme objet.
+
+L'évaluateur gère : 
+    - variables positives ou négatives
+    - constantes entières et décimales (avec le '.' ex : 0.1) positives ou négatives
+    - expressions complexes parenthésées 
+    - les opérareurs + - * / et ~ pour la négation
+    - les fonctions : cos(exp) sin(exp) tan(exp) Asin(exp) Acos(exp) Atan(exp) log(exp) sqrt(exp)
+
+Ajouts supplémentaires : 
+
+Il est possible de rentrer 2 fonctions à la fois et de leur attribuer une couleur respective.
+
+
+---> Le programme se lance depuis la classe GrapherFenetre.java, qui contient la fonction main.
